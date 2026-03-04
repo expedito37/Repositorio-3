@@ -1,0 +1,72 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+header {
+    margin: 24px 0  84px 40px; /*todos dentro do header vão  se 
+                     movimentar junos como se fossem um só*/
+}
+
+.link-hearder {
+    margin-right: 24px;
+    color: #000000;
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 24px;
+  
+}
+
+#button-sign{
+    background: rgb(68, 184, 68);
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    margin-left: 7px;
+}
+
+.logo-imagewide{
+    width: 369px;
+    height: 300px;
+    margin-left:120px;
+    display: inline-block
+    }
+
+section{    
+    display: inline-block; /* Altura e largura podem ser alterados*/
+    margin-left: 55px; 
+    width: 299px;         /*menu ex contato login etc..*/
+}
+
+
+h1 {
+   font-weight: 800;
+    color:#220249;
+   
+}
+ 
+p{
+    color:#090909;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom:25px ;
+    
+}
+
+#Leon-more{
+    font-weight: 700;
+    width: 100px;
+    height: 40px;
+    color: rgb(106, 209, 106) !important; 
+    margin: 700 0 0 0;       /*important anula o style em cascata*/
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: black;   /*Você foi anulada pelo (!important)*/
+}
